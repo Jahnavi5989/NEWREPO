@@ -1,0 +1,119 @@
+git:
+git
+git config --global core.editor "code --wait"
+
+ECMA script
+european computer manifactures association
+es2015
+es232
+es6-just some set of rules for how to use javascript
+many changes have taken place es6
+
+es6 and jsx are the most important ones for react js
+
+c/c++/java are called statically typed languages
+php python javascript are called dyamically typed langauges
+
+
+variables: es6 -- let,const;
+		es5-- var ;
+
+
+let students = {
+	name:"jahnavi",
+	age: 25;
+	gender: "female",
+	college: "KLU"
+}
+
+//let a = score[0];
+//let b = score[1];
+//Array De - structuring
+let[a,b] =score;
+
+//object de structuring 
+let {name, gender} = students;
+
+//there are four types fucntions in java script
+named fucntions
+anonymus fucntion
+call back functions
+constructor
+
+fucntion add(a,b){
+	return (a+b)
+}
+
+const sub=function (a,b){ return a-b; }
+
+
+//arrow fucntion
+const product = (a, b) => {
+	return a*b;
+}
+
+const fun = () => {
+	console.log("hello");
+}
+
+const product2 = (a,b) => a*b;
+const fun2 = ()=> console.log("HELLO");
+
+const fun3 = a => a+10;
+
+const fun4 = x => {
+	console.log(a+10);
+}
+
+
+ES6 modules :
+4 types of imports and export statements
+string templates
+and call back function
+Emmet
+
+== vs ===
+ == comapres 
+=== compares the datatype
+
+'' and "" are same only strings no characters 
+character is a string with lenght 1
+
+const arr = '10 20 30 40 50 60 70 '.split(' ');
+const num = arr.map(ele=>Number(ele));
+
+
+B=A.map(ele,f)
+
+
+
+vanila javascript is plain javascript wihtout any rules
+
+process of sending code from javascript to html
+
+
+div.App>NavBar/+div#page-body
+
+
+in reaact parameter will be only json format
+
+props
+
+
+added a
+untracked u
+modified m
+
+neither of them are there means either the files are commited or git is not intialized
+
+
+
+1.0.0  
+1-major changes in our ptoject
+0-minor changes
+0-bugs
+
+npm init -y (deafult values)
+
+
+
